@@ -58,3 +58,27 @@
         }
     }
 }
+
+@media  (max-width: 1024px) and (min-width: 768px) {
+    .promo__wrapper {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo__wrapper {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .promo {
+        &__icons {
+            width: 90%;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+}

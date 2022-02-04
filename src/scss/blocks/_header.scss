@@ -31,3 +31,11 @@
         align-items: flex-end;
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
