@@ -1,0 +1,45 @@
+.review {
+    &__descr {
+        margin-top: 60px;
+        display: flex;
+        color: $secondtext;
+    }
+    &__img {
+        width: 170px;
+        height: 170px;
+        margin-right: 60px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__distance {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+    }   
+}
+
+@media (max-width: 510px) {
+    .review {
+        &__img {
+            width: 85px;
+            height: 85px;
+            margin-right: 30px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__distance {
+            font-size: 12px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+        
+    }
+}

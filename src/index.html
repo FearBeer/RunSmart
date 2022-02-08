@@ -4,21 +4,39 @@
         "title":"Home page",
     })
     <body>
-        <div class="promo">
+        <section class="promo">
             <div class="container">
                 @@include('html/header.html')
             </div>
-        </div>
-        <div class="benefits">
+        </section>
+        <section class="benefits">
             <div class="container">
                 @@include('html/benefits.html')
             </div>
-        </div>
-        <div class="consultation">
+        </section>
+        <section class="consultation">
             <div class="container">
                 @@include('html/consultation.html')
             </div>
-        </div>
+        </section>
+        <section class="slider">
+            <div class="container">
+                @@include('html/slider.html')
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                @@include('html/catalog.html')
+            </div>
+        </section>
+
+        <section class="review">
+            <div class="container">
+                @@include('html/review.html')
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/app.min.js"></script>
     </body>
 </html>
